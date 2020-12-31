@@ -12,10 +12,10 @@ To change the paint color tap on the paint bucket and it will cycle through the 
 To save a screenshot of the current ARView just tap SAVE IMAGE and allow access to your Camera Roll.
 
 ## Requirements
-XCode 12.3 
-Swift 5.3.2
-iPhone 12 Pro to use Lidar Scanner
-iOS 14.3
+XCode 12.3 <br>
+Swift 5.3.2<br>
+iPhone 12 Pro to use Lidar Scanner<br>
+iOS 14.3<br>
 
 ## Technologies used
 -Swift<br>
