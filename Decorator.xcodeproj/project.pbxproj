@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F2A107D259E2AC50094BF55 /* MainArView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2A107C259E2AC50094BF55 /* MainArView.swift */; };
+		4F2A1083259E33410094BF55 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2A1081259E33410094BF55 /* RoundedButton.swift */; };
+		4F2A1084259E33410094BF55 /* ThemeColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2A1082259E33410094BF55 /* ThemeColors.swift */; };
 		4F9015F4259BAA6500784A1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9015F3259BAA6500784A1D /* AppDelegate.swift */; };
 		4F9015F6259BAA6500784A1D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9015F5259BAA6500784A1D /* ViewController.swift */; };
-		4F9015F8259BAA6500784A1D /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 4F9015F7259BAA6500784A1D /* Experience.rcproject */; };
+		4F9015F8259BAA6500784A1D /* PaintBox.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 4F9015F7259BAA6500784A1D /* PaintBox.rcproject */; };
 		4F9015FB259BAA6500784A1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F9015F9259BAA6500784A1D /* Main.storyboard */; };
 		4F9015FD259BAA6900784A1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F9015FC259BAA6900784A1D /* Assets.xcassets */; };
 		4F901600259BAA6900784A1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F9015FE259BAA6900784A1D /* LaunchScreen.storyboard */; };
@@ -35,10 +38,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4F2A107C259E2AC50094BF55 /* MainArView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainArView.swift; sourceTree = "<group>"; };
+		4F2A1081259E33410094BF55 /* RoundedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		4F2A1082259E33410094BF55 /* ThemeColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeColors.swift; sourceTree = "<group>"; };
 		4F9015F0259BAA6500784A1D /* Decorator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Decorator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F9015F3259BAA6500784A1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4F9015F5259BAA6500784A1D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4F9015F7259BAA6500784A1D /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
+		4F9015F7259BAA6500784A1D /* PaintBox.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = PaintBox.rcproject; sourceTree = "<group>"; };
 		4F9015FA259BAA6500784A1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4F9015FC259BAA6900784A1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F9015FF259BAA6900784A1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -76,6 +82,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4F2A107A259E29F30094BF55 /* UIElements */ = {
+			isa = PBXGroup;
+			children = (
+				4F2A1081259E33410094BF55 /* RoundedButton.swift */,
+				4F2A1082259E33410094BF55 /* ThemeColors.swift */,
+			);
+			path = UIElements;
+			sourceTree = "<group>";
+		};
+		4F2A107B259E2A000094BF55 /* ARElements */ = {
+			isa = PBXGroup;
+			children = (
+				4F2A107C259E2AC50094BF55 /* MainArView.swift */,
+			);
+			path = ARElements;
+			sourceTree = "<group>";
+		};
 		4F9015E7259BAA6500784A1D = {
 			isa = PBXGroup;
 			children = (
@@ -99,9 +122,11 @@
 		4F9015F2259BAA6500784A1D /* Decorator */ = {
 			isa = PBXGroup;
 			children = (
+				4F2A107B259E2A000094BF55 /* ARElements */,
+				4F2A107A259E29F30094BF55 /* UIElements */,
 				4F9015F3259BAA6500784A1D /* AppDelegate.swift */,
 				4F9015F5259BAA6500784A1D /* ViewController.swift */,
-				4F9015F7259BAA6500784A1D /* Experience.rcproject */,
+				4F9015F7259BAA6500784A1D /* PaintBox.rcproject */,
 				4F9015F9259BAA6500784A1D /* Main.storyboard */,
 				4F9015FC259BAA6900784A1D /* Assets.xcassets */,
 				4F9015FE259BAA6900784A1D /* LaunchScreen.storyboard */,
@@ -259,8 +284,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F9015F6259BAA6500784A1D /* ViewController.swift in Sources */,
+				4F2A1083259E33410094BF55 /* RoundedButton.swift in Sources */,
 				4F9015F4259BAA6500784A1D /* AppDelegate.swift in Sources */,
-				4F9015F8259BAA6500784A1D /* Experience.rcproject in Sources */,
+				4F2A107D259E2AC50094BF55 /* MainArView.swift in Sources */,
+				4F9015F8259BAA6500784A1D /* PaintBox.rcproject in Sources */,
+				4F2A1084259E33410094BF55 /* ThemeColors.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
